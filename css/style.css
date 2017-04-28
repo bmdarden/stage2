@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    }
+
+body {
+    background-color: azure;
+}
+
+header{
+    text-align: center;    
+}
+
+.navigator {
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 0% 5% 5% 0%;    
+}
+
+.navigator > div > ul {
+    width: 100%;    
+    margin: 10px auto;
+    border-width: 3px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.navigator > div > ul > li {
+    list-style:none;
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    margin: 10px auto;
+    border-width: 3px;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+ .navigatora:hover {
+    font-size: 30px;
+    color:darkblue; 
+}
+
+#content {
+    width: 100%;
+    background-color: rgba(255,255,255,.5);
+    overflow: auto;
+    border-radius: 2%;
+}
+
+#content .mainimg{
+    width: 100%;
+}
+
+#content .mainimg img{
+    width: 100%;
+}
+
+#content div {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+#content .boxone{
+    border-width: 1px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+#content .boxtwo{
+    border-width: 1px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+#content .boxthree{
+    border-width: 1px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+    border-width: 3px;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.footer div p{
+    font-size: 30px;
+}
